@@ -39,7 +39,7 @@
     font-weight: 700;
     padding: 1em;
 }
-.lista-menu__link{
+.lista__menu-link{
     color: var(--roxo);
     text-decoration: none;
     text-transform: uppercase;
