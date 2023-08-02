@@ -1,11 +1,16 @@
 @import url(styles/header.css);
 :root{
---cor-de-fundo:#9949b4;
---cor-cabecalho:#FFFFFF;
-
+    --font-principal: Poppins;
+    --cor-de-fundo: #EBECEE;
+    --branco: #faf1f1;
+    --amarelo: #cba707; 
+    --roxo: #C75EEB; 
+    --fonte-principal: "Poppins";
+    --fonte-secundaria:"Josefin Sans";
 }
 body{
-    margin: 0px;
-    padding: 0px;
-    background-color:var(--cor-de-fundo) ;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
