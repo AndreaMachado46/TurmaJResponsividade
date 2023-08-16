@@ -44,6 +44,9 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+.conteiner__texto{
+    display: none;
+}
 @media screen and (min-width:1024px){
     .container__titulo{
     display: block;
@@ -52,7 +55,7 @@
     font-weight: 300;
 
 }
-.container__titulo--negrito{
+.conteiner__titulo--negrito{
     font-weight: 400;
 }
 .opcoes {
@@ -79,5 +82,22 @@
 }
     .opcoes__botao{
         display: none;
+    }
+}
+@media screen and (min-width: 1728px) {
+    .conteiner__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    .conteiner__texto{
+            display: block;
+        }
+    }    
+    .cabeçalho{
+        padding: 0 2em;
+    }
+    .opções{
+        margin-right: auto;
     }
 }
